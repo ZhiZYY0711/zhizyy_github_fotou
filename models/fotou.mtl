@@ -1,0 +1,27 @@
+#
+# Wrap
+#
+
+
+newmtl default
+   Kd 1.000 1.000 1.000
+   illum 1
+   d 1
+   Ns 6
+   sharpness 60
+   Ni 1
+
+newmtl _texture
+   Ka 0.000 0.000 0.000
+   Kd 1.000 1.000 1.000
+   illum 1
+   d 1
+   Ns 6
+   sharpness 60
+   Ni 1
+   map_Kd_wrapU Repeat
+   map_Kd_wrapV Repeat
+   map_Kd_magFilter Linear
+   map_Kd e699bae883bd5f74657874757265.png
+
+# end of file
